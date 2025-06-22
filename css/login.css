@@ -1,5 +1,5 @@
 .login-form {
-  background-image: url('/fundoHOG.jpg'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da sua imagem */
+  background-image: url('/imgs/fundoHOG.jpg'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da sua imagem */
 
   background-size: cover; /* Faz a imagem cobrir toda a área */
   background-position: center; /* Centraliza a imagem */

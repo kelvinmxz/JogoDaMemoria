@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display:flex;
 
-    background-image: url('/fundoHOG.jpg'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da sua imagem */
+    background-image: url('/imgs/fundoHOG.jpg'); /* Substitua 'caminho-da-imagem.jpg' pelo caminho da sua imagem */
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-attachment: fixed; /* A imagem fica fixa ao rolar a página */
