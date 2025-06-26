@@ -78,7 +78,6 @@ backface-visibility: hidden;
     transform: rotateY(180deg);
 }
 
-/* ...existing code... */
 
 /* Responsividade para telas menores */
 @media (max-width: 900px) {
