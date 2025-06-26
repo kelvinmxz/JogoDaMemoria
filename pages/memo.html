@@ -7,28 +7,38 @@
     <title>Jogo da memória</title>
 </head>
 <body>
-      <div id="scoreboard">
-       Jogador: <span id="player-name"></span> <br><br> Pontos: <span id="points">0</span> <br><br>
-       tempo: <!-- Temorizador de tempo que esta contando no memo.js -->
-    </div>
-   <style>
-    
-    #scoreboard {
+    <div id="scoreboard">
+   Jogador: <span id="player-name"></span> <br>
+   Pontos: <span id="points">0</span> <br>
+   Tempo: <!-- Temporizador de tempo que esta contando no memo.js -->
+</div>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    #scoreboard {
+        text-align: center;
         position: fixed;
         top: 10px;
-        left: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         padding: 10px;
         border-radius: 5px;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Orbitron', sans-serif; /* Fonte tecnológica */
         font-size: 16px;
+        width: 200px; /* Largura fixa para o placar */
     }
-    #player-name {
+
+    #scoreboard  {
+        color: #a1faff; /* Azul brilhante */
         font-weight: bold;
     }
-   </style>
+
+    #player-name, #points, #tempo {
+        font-weight: bold;
+        color: #a1faff; /* Azul brilhante */
+    }
+</style>
     </style>
     <div class="tudo">
         <img src="" alt="">
