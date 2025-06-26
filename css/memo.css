@@ -1,7 +1,7 @@
 * {
     padding: 5;
     margin: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -76,4 +76,38 @@ backface-visibility: hidden;
 
 .card.flip {
     transform: rotateY(180deg);
+}
+
+/* ...existing code... */
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    .memory-game {
+        width: 98vw;
+        height: 98vw;
+        max-width: 98vw;
+        max-height: 98vw;
+    }
+    .card {
+        width: calc(25% - 10px);
+        height: calc(25% - 10px);
+        margin: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .memory-game {
+        width: 100vw;
+        height: 100vw;
+        max-width: 100vw;
+        max-height: 100vw;
+    }
+    .card {
+        width: calc(33.33% - 6px);
+        height: calc(33.33% - 6px);
+        margin: 2px;
+    }
+    body {
+        padding: 0;
+    }
 }
